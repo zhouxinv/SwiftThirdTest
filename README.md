@@ -6,7 +6,7 @@
  
 
 ###ScreenShots
-
+![Demo](SwiftThirdTest/1.gif)
 
 ![SweetAlert](https://github.com/codestergit/SweetAlert-iOS/blob/master/SweetAlertiOS.gif)
 
