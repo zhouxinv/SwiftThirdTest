@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.2.0)
+  - Charts (3.0.1):
+    - Charts/Core (= 3.0.1)
+  - Charts/Core (3.0.1)
+  - Kingfisher (3.2.3)
+  - SnapKit (3.0.2)
+  - SwiftyJSON (3.1.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - Kingfisher
+  - SnapKit (~> 3.0.2)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
+  Kingfisher: 0e789b4069e20da071d6eec59a9cfb4cee67a1cb
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+
+PODFILE CHECKSUM: 8c67a0a2cf08851cd86d4c3a3021d4642560cdc4
+
+COCOAPODS: 1.1.1
