@@ -15,7 +15,7 @@ class AlamofireController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "我的商家";
+        self.title = "我的";
         
         self.getListValue()
     }

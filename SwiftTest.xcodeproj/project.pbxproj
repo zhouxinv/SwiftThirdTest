@@ -13,8 +13,6 @@
 		5C0689111E09367300EC4085 /* CMAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0689101E09367300EC4085 /* CMAlamofire.swift */; };
 		5C0EFADD1E24791C00F1C963 /* AlamofireController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0EFADC1E24791C00F1C963 /* AlamofireController.swift */; };
 		5C45B58E1E24BE03003DB72D /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C45B58D1E24BE03003DB72D /* NSString+Util.m */; };
-		5C45B5971E24D96D003DB72D /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C45B5931E24D96D003DB72D /* Base64.m */; };
-		5C45B5981E24D96D003DB72D /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C45B5951E24D96D003DB72D /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5C5DE73B1E0CABA000E3129F /* SnpKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DE73A1E0CABA000E3129F /* SnpKitViewController.swift */; };
 		5C5DE73D1E0CABB600E3129F /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5DE73C1E0CABB600E3129F /* SnapKit.framework */; };
 		5C5DE73F1E0CBF2900E3129F /* KingfisherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5DE73E1E0CBF2900E3129F /* KingfisherController.swift */; };
@@ -28,6 +26,8 @@
 		5CCFDEE81E0776440053C5D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCFDEE61E0776440053C5D3 /* LaunchScreen.storyboard */; };
 		5CCFDEF31E0776450053C5D3 /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFDEF21E0776450053C5D3 /* SwiftTestTests.swift */; };
 		5CCFDEFE1E0776450053C5D3 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFDEFD1E0776450053C5D3 /* SwiftTestUITests.swift */; };
+		5CF57FBD1E55437900C3415C /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF57FBA1E55437900C3415C /* Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5CF57FBE1E55437900C3415C /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF57FBC1E55437900C3415C /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		91C4F8191E5DA3044A87C1F0 /* Pods_SwiftTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48A99C8E82254CC83DE75A8 /* Pods_SwiftTestUITests.framework */; };
 		B56F563C9D0D5390C03E730A /* Pods_SwiftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87BBAD0EE82434772F341D9 /* Pods_SwiftTest.framework */; };
 /* End PBXBuildFile section */
@@ -74,10 +74,6 @@
 		5C45B58C1E24BE03003DB72D /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
 		5C45B58D1E24BE03003DB72D /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
 		5C45B5911E24D8B5003DB72D /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		5C45B5921E24D96D003DB72D /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
-		5C45B5931E24D96D003DB72D /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
-		5C45B5941E24D96D003DB72D /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
-		5C45B5951E24D96D003DB72D /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
 		5C5DE73A1E0CABA000E3129F /* SnpKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnpKitViewController.swift; sourceTree = "<group>"; };
 		5C5DE73C1E0CABB600E3129F /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SwiftTest-dtfeppevtiphgvfkxyqttahhmhzd/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
 		5C5DE73E1E0CBF2900E3129F /* KingfisherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherController.swift; sourceTree = "<group>"; };
@@ -101,6 +97,10 @@
 		5CF57F5B1E51C62D00C3415C /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
 		5CF57F5E1E51C62D00C3415C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		5CF57F601E51C62D00C3415C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF57FB91E55437900C3415C /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = "SwiftTest/OC文件/Base64.h"; sourceTree = SOURCE_ROOT; };
+		5CF57FBA1E55437900C3415C /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = "SwiftTest/OC文件/Base64.m"; sourceTree = SOURCE_ROOT; };
+		5CF57FBB1E55437900C3415C /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenUDID.h; path = "SwiftTest/OC文件/OpenUDID.h"; sourceTree = SOURCE_ROOT; };
+		5CF57FBC1E55437900C3415C /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenUDID.m; path = "SwiftTest/OC文件/OpenUDID.m"; sourceTree = SOURCE_ROOT; };
 		5D503582682BD5422F30E127 /* Pods-SwiftTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTestTests/Pods-SwiftTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		9BC9D50DBB530F8077E0B38E /* Pods-SwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest.release.xcconfig"; sourceTree = "<group>"; };
 		A659B1869463E873EE687EC5 /* Pods-SwiftTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTestUITests/Pods-SwiftTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -166,10 +166,10 @@
 		5C45B5961E24D96D003DB72D /* OtherClassLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				5C45B5921E24D96D003DB72D /* Base64.h */,
-				5C45B5931E24D96D003DB72D /* Base64.m */,
-				5C45B5941E24D96D003DB72D /* OpenUDID.h */,
-				5C45B5951E24D96D003DB72D /* OpenUDID.m */,
+				5CF57FB91E55437900C3415C /* Base64.h */,
+				5CF57FBA1E55437900C3415C /* Base64.m */,
+				5CF57FBB1E55437900C3415C /* OpenUDID.h */,
+				5CF57FBC1E55437900C3415C /* OpenUDID.m */,
 			);
 			name = OtherClassLibrary;
 			path = ../../../../../CarMaid/CarMaid/UCLibrary/OtherClassLibrary;
@@ -566,9 +566,9 @@
 				5C5DE73F1E0CBF2900E3129F /* KingfisherController.swift in Sources */,
 				5C45B58E1E24BE03003DB72D /* NSString+Util.m in Sources */,
 				5C06890C1E092E6000EC4085 /* SwiftTest.swift in Sources */,
-				5C45B5981E24D96D003DB72D /* OpenUDID.m in Sources */,
+				5CF57FBE1E55437900C3415C /* OpenUDID.m in Sources */,
 				5CCFDEDE1E0776440053C5D3 /* AppDelegate.swift in Sources */,
-				5C45B5971E24D96D003DB72D /* Base64.m in Sources */,
+				5CF57FBD1E55437900C3415C /* Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
